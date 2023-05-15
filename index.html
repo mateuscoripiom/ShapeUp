@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>ShapeUp</title>
+</head>
+<body>
+    <div class="menu">
+  
+    </div>
+
+    <div class="logoimg">
+        <img src="img/logo.png", width="120%" height="180%">
+    </div>
+
+    <div class="maromba">
+        <img src="img/maromba.png" class="imgmaromba" width="236%" height="220%">
+    </div> 
+
+    <div class="nav">
+        <ul>
+            <li><a href="#planos" class="text1">Planos</a></li>
+            <li><a href="#imc" class="text1">IMC</a></li>
+            <li><a href="#kids" class="text1">Kids</a></li>
+            <li><a href="#contato" class="text1">Contato</a></li>
+        </ul>
+    </div>
+
+    <div class="btnlogin">
+        <button type="button"><img src="img/imglogin.png" class="imglogin"><a href="#tudo1">Login</a></button>
+    </div>
+
+    <section id="sobre">
+    <div class="bio">
+        <div class="mao">
+            <img src="img/mao.png">
+        </div>
+        <div class="espaco"></div>
+        <h3>Supere seus limites e  alcance seus objetivos</h3>
+        <p>Cada dia é uma nova oportunidade para se superar e alcancar seus objetivos. 
+            Acredite em si mesmo e comece hoje meso sua jornada rumo a uma vida mais saudável e feliz!</p>
+        <div class="supere">
+                <img src="img/levanta.png" id="levanta">
+                <p id="treine">Treine todos os dias com professores qualificados</p>
+        </div>
+        <div class="luta">
+            <img src="img/tiro.png" id="luta">
+            <p id="lute">Aulas de luta presenciais, com professores qualificados</p>
+        </div>
+
+        <div class="danca">
+            <img src="img/danca.png" id="danca">
+            <p id="dance">Aulas de dança presenciais, com professores qualificados</p>
+        </div>
+
+    </div>
+</section>
+    <section id="planos">
+    <div class="planos">
+        <h2 id="titulo">Nossos Planos</h2>
+        <div class="quadrados" style="margin: 0 auto;display: flex;justify-content: center;">
+            <div class="quad1">
+            <h2>Plano básico</h2>
+            <h3>Sem  Fidelidade </h3>
+            <P>∙Área de musculação e<br> 
+                ∙aeróbicos<br>
+                ∙Treinos Online <br>
+                ∙Plano vip para um amigo <br>
+                de 30 dias
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$99,90/mês</h1>
+            <h4>01</h4>
+        </div>
+        <div class="quad2">
+            <h2>Plano Aulas</h2>
+            <h3>Sem  Fidelidade</h3>
+            <P>∙Aulas presenciais:<br>
+                ∙Muay Thai<br>
+                ∙Judô<br>
+                ∙Karatê<br>
+                ∙Dança<br>
+                ∙Pilates <br> 
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$104,90/mês</h1>
+            <h4>02</h4>
+        </div>
+        <div class="quad3">
+            <h2>Plano Black</h2>
+            <h3>12 Meses de Fidelidade</h3>
+            <P>∙Acesso à + 250 academias ao 
+                redor do Brasil<br>
+                ∙Acesso total da academia<br>
+                ∙Plano Básico + Aulas<br>
+                ∙Instrutor presente para auxiliar<br>
+                ∙Treino personalizado<br>
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$149,90/mês</h1>
+            <h4>03</h4>
+        </div>
+    </div>
+</section>
+</div>
+
+<section id="imc">
+    <div class="imc">
+    <main>
+        <h2>Calcule seu IMC</h2>
+        <p>O cálculo do IMC (Índice de Massa Corporal) é uma medida que relaciona o peso e a altura 
+            de uma pessoa para avaliar se ela está dentro do peso considerado saudável.</p>
+        <div class="calculadora">
+            <div class="divAltura">
+                <label for="altura" id="lblaltura">Altura (M)</label><br>
+                <input type="number" id="altura"/>
+            </div>
+            <div class="divPeso">
+              <label for="peso" id="lblaltura">Peso (KG)</label><br>
+              <input type="number" id="peso" />
+            </div><br>
+        </div>
+        <br>
+            <div class="divCalc">
+              <button onclick="calcIMC()" id="calculo">Calcular</button>
+            </div>
+    <span id="resultado"></span>
+    </main>
+    <script src="script.js"></script>
+
+    <div class="tabela">
+        <img src="img/tabela.png">
+    </div>
+
+    </div>
+    </section>
+<section class="professores">
+    <div class="nossos">
+        <h2>
+          <center> Nossos Profissionais </center>
+        </h2>
+    
+
+    
+<div class="professores">
+
+    <div class="professor1">
+        <img src="img/pedro.png">
+    
+        <h3>Pedro Pascal</h3>
+        <p>Especialista em treinamento de força, com uma ampla experiência em musculação e levantamento de peso</p>
+    </div>
+
+    <div class="professor2">
+                <img src="img/janaina.png">
+        <h3>Janaina Jessica</h3>
+        <p>Especialista em Pilates, que ajuda seus alunos a melhorar a postura, a flexibilidade e o equilíbrio.</p>
+    </div>
+
+    <div class="professor3">
+        <img src="img/carla.png">
+        <h3>Carla Peres</h3>
+        <p>Especialista em treinamento funcional, com vasta experiência em ajudar seus alunos a melhorar sua força.</p>
+    </div>
+
+    <div class="professor4">
+        <img src="img/roger.png">
+        <h3>Roger Junior</h3>
+        <p>Treinador de corrida experiente, que ajuda seus alunos a melhorar sua técnica de corrida e resistência</p>
+    </div>
+
+</div>
+
+</div>
+</section>
+<main>
+<section id="kids">
+<div class="AreaKids">
+    <h2 class="tituli">Área Kids</h2>
+    <div class="caixas">
+    <div class="box1">
+        <h2>Brinquedoteca</h2>
+        <h3> Espaço seguro e alegre para <br>as crianças brincarem <br>enquanto seus pais<br> se exercitam.</h3>
+        <div class="circle1">
+        <img src="img/brinquedo.png">
+        </div>
+    </div>
+    <div class="box2">
+        <h3>Ensina disciplina, respeito e autocontrole para as crianças, além de desenvolver <br>
+        habilidades motoras<br> e físicas.</h3>
+        <h2>Luta</h2>
+        <div class="circle2">
+            <img src="img/judo.png">
+        </div>
+    </div>
+    <div class="box3">
+        <h3>estimula a  mobilidade, <br>o emocional
+             e o social das crianças, além de ajudar a melhorar a coordenação e o equilíbrio. </h3>
+        <h2>Dança</h2>
+        <div class="circle3">
+            <img src="img/dance.png">
+        </div>
+    </div>
+    <div class="box4">
+        <h3>Desenvolvimento muscular, cardiovascular e respiratório,
+            <br> além de melhorar a postura <br>e a coordenação. </h3>
+        <h2>Natação</h2>
+        <div class="circle4">
+            <img src="img/swim.png"></div>
+    </div>
+    <div class="box5">
+        <h3> Força, resistência e <br>habilidades motoras, além de promover o trabalho<br> em equipe a superação <br>de desafios.</h3>
+        <h2>Escalada</h2>
+        <div class="circle5">
+            <img src="img/climbing.png">
+        </div>
+    </div>
+    <div class="box6">
+        <h3>Desenvolvimento muscular, 
+            a flexibilidade e a coordenação motora, além de melhorar 
+            a resistência cardiovascular.</h3>
+        <h2>Ginástica</h2>
+        <div class="circle6"><img src="img/ginastica.png"></div>
+    </div>
+    <div class="imggrupo">
+        <img src="img/grupo.png" width="580px">
+    </div>
+    <div class="imggrupo2">
+        <img src="img/grupo2.png" width="500px"> 
+    </div>
+</div>
+</div>
+</section>
+</main>
+<section id="tudo1">
+<div class="tudo">
+    <h2>Bem-Vindo a</h2>
+    <img src="img/logofooter.png" class="logofooter">
+    <div class="botoes">
+    <button type="button"><img src="img/google.png">Entre com o Google</button>
+    <button id="face" type="button"><img src="img/face.png">Entre com o Facebook</button>
+    
+
+    <div class="linha1"></div>
+    <div class="linha2"></div>
+    <div class="ou">
+        <p>OU</p>
+    </div>
+    
+    <input type="text" placeholder="Email" id="emailplace"><img src="img/email.png" id="email"></input>
+    <input type="text" id="senha" placeholder="Senha" ><img src="img/senha.png" id="senhaimg"></input>
+
+    <div class="login">
+        <button onclick="login" id="login">Login</button>
+      </div>
+    </div>
+</div>
+</section>
+<footer>
+    <div class="retangulo">
+
+        <div class="logo-div">
+            <img src="img/logofooter.png" class="logo">
+        </div>
+
+            <div class="opcoes">
+            
+                <nav id="opcoes-ste">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+            
+                        <li><a href="#sobre">Sobre</a></li>
+                        
+                        <li><a href="#imc">IMC</a></li>
+                        
+                        <li><a href="#kids">Kids</a></li>
+                        
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <br>
+            <div class="textfooter">
+               <p>Entre em forma conosco! Oferecemos uma variedade de programas de treinamento e aulas para ajudá-lo a alcançar seus objetivos de saúde e fitness. Contate-nos hoje para saber mais!</p>
+            </div>
+            <section id="contato">
+           <div class="contato">
+                <p>Entre em Contato Conosco</p>
+            </div>
+            </section>
+            <div class="divesquerda"></div>
+                <div class="redessociais">
+                    <a href="#"><img src="img/face.svg"></a>
+                    <a href="#"><img src="img/twitter.svg"></a>
+                    <a href="#"><img src="img/linkedin.svg"></a>
+                    <a href="https://www.instagram.com/shap.eup/"><img src="img/insta.svg"></a>
+
+                </div>
+            <div class="divdireita"></div>
+    </div>
+</footer>
+</html>
+
+</body>
+</html>
