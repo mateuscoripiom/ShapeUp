@@ -1141,20 +1141,18 @@ color: #3D3535;
     position: absolute;
     width: 500px;
     height: 60px;
-    left: 450px;
     top:  3200px;
     border-radius:8px;
     border:none;
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
-    margin-left: 100px;
+
 }
 
 #face{
     position: absolute;
     width: 500px;
     height: 60px;
-    left: 450px;
     top:  3280px;
     border-radius:8px;
     border:none;
@@ -1186,26 +1184,23 @@ color: #3D3535;
     position: absolute;
     width: 200px;
     height: 0px;
-    left: 450px;
     top: 3380px;
     border: 1px solid #BFBFBF;
-    margin-left:100px;
+    margin-left:-295px;
 }
 
 .linha2{
     position: absolute;
     width: 200px;
     height: 0px;
-    left: 748px;
     top: 3380px;
-    margin-left:100px;
+    margin-left:301px;
     border: 1px solid #BFBFBF;
 }
 .ou{
     position: absolute;
     width: 23px;
     height: 22px;
-    left: 690px;
     top: 3370px;
 
     font-family: 'Poppins';
@@ -1213,7 +1208,6 @@ color: #3D3535;
     font-weight: 400;
     font-size: 14px;
     line-height: 135.5%;
-    margin-left: 100px;
 
     color: #2F2F2F; 
 }
@@ -1221,7 +1215,6 @@ color: #3D3535;
     position: absolute;
     width: 671px;
     height: 77px;
-    left: 450px;
     top: 3405px;
     width: 520px;
     border-radius: 8px;
@@ -1236,7 +1229,6 @@ color: #3D3535;
     position: absolute;
     width: 671px;
     height: 77px;
-    left: 450px;
     top: 3480px;
     width: 500px;
     border-radius: 8px;
@@ -1249,39 +1241,41 @@ color: #3D3535;
 
 .tudo #email{
     position: absolute;
-    left: 350px;
+    left: 529px;
     right: 67.04%;
     top: 3480px;
     bottom: 16.77%;    
     width: 25px;
     height: 20px;
-    margin-left: 120px;
     margin-top: -55px;
-    margin-left: 220px;
   
 }
 
 .tudo #emailplace{
     width: 450px;
-    margin-left: 100px;
+    background-image: url("img/email.png");
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    background-size: 26px;
 }
 
 .tudo #senha{
     width: 450px;
-    margin-left: 100px;
+    background-image: url("img/senha.png");
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    background-size: 26px;
 }
 
 .tudo #senhaimg{
     position: absolute;
-    left: 350px;
+    left: 530px;
     right: 67.04%;
     top: 3480px;
     bottom: 16.77%;    
     width: 20px;
     height: 20px;
-    margin-left: 120px;
     margin-top: 25px;
-    margin-left: 220px;
 }
 
 .tudo #login{
@@ -1290,6 +1284,7 @@ color: #3D3535;
     color: white;
     font-family: "Poppins";
     font-size: 18px;
+    
 }
 
 .retangulo{
@@ -1537,10 +1532,9 @@ border-radius: 0px 100px 0px 0px;
         }
         .imc{
             margin-top: 2284px;
-            margin-left: 30px;
             max-width: 400px;
             font-size:15px;
-            
+            margin-left: 0px;
         }
         .imc h2{
            width:300px;
@@ -1554,7 +1548,7 @@ border-radius: 0px 100px 0px 0px;
         }
 
         .tabela img {
-            margin-left:0;
+            margin-left:-66px;
             margin-top: 326px;
         }
 
@@ -1625,7 +1619,7 @@ border-radius: 0px 100px 0px 0px;
         .tituli{
             margin: 0;
             text-align: center;
-            margin-left: 169px;
+            margin-left: 147px;
             margin-top: 43px;
             display: flex;
         }
@@ -1638,30 +1632,30 @@ border-radius: 0px 100px 0px 0px;
         .box2{
             left: 300px;
             top: 4690px;
-            margin-left:5px;
+            margin-left:-36px;
         }
 
         .box3{
             left: 90px;
             top: 4953px;
-            margin-left:20px;
+            margin-left:-41px;
         }
      
         .box4{
             left: 267px;
             top: 4953px;
-            margin-left:5px;
+            margin-left:0px;
         }
    
         .box5{
             left: 60px;
             top: 5204px;
-            margin-left:50px;
+            margin-left:-9px;
         }
         .box6{
             left: 325px;
             top: 5204px;
-            margin-left:50px;
+            margin-left:-55px;
         }
 
         .imggrupo{
@@ -1670,9 +1664,12 @@ border-radius: 0px 100px 0px 0px;
         }
         .imggrupo2{
             visibility: visible;
-            margin-top: 769px;
-            margin-left: 0px;
+            margin-top: 800px;
+            margin-left: -32px;
             width: 50px;
+        }
+        .botoes{
+
         }
 
         .tudo h2{
@@ -1685,14 +1682,14 @@ border-radius: 0px 100px 0px 0px;
         .tudo button{
             width: 400px;
             left: 50px;
-            top: 5984px;
+            top: 5943px;
         }
         
         #face{
             width: 400px;
             height: 60px;
             left: 50px;
-            top: 6057px;
+            top: 6020px;
         }
         
         .tudo button img{
@@ -1714,21 +1711,21 @@ border-radius: 0px 100px 0px 0px;
         
         .linha1{
             width: 150px;
-            left: 50px;
-            top: 6143px;
+            left: 345px;
+            top: 6108px;
         }
         
         .linha2{
             position: absolute;
             width: 150px;
             height: 0px;
-            left: 300px;
-            top: 6143px;
+            left: -3px;
+            top: 6108px;
         }
         
         .ou{
             left: 240px;
-            top: 6134px;
+            top: 6099px;
         }
         
 
@@ -1741,26 +1738,27 @@ border-radius: 0px 100px 0px 0px;
         
     
         .tudo #email{
-            left: -55px;
-            top: 6247px;
-            
+            left: 65px;
+            top: 6214px;
+            z-index: 1;
         }
         
         .tudo #emailplace{
             left: 50px;
-            top: 6170px;
+            top: 6138px;
             width: 350px;
         }
         
         .tudo #senha{
             left: 50px;
-            top: 6249px;
+            top: 6212px;
             width: 350px;
         }
         
         .tudo #senhaimg{
-            top: 6246px;
-            left: -55px;
+            top: 6207px;
+            left: 63px;
+    
         }
         
         .tudo #login{
@@ -1777,7 +1775,7 @@ border-radius: 0px 100px 0px 0px;
    
         .opcoes{
         
-           margin-left:20px;     
+           margin-left:-62px;     
         }
         
         ul{
@@ -1827,7 +1825,6 @@ border-radius: 0px 100px 0px 0px;
 }
 #emailplace{
     font-family: 'Poppins', sans-serif;
-    margin-left: 5px;
 }
 #senha{
     font-family: 'Poppins', sans-serif;
@@ -1848,4 +1845,7 @@ border-radius: 0px 100px 0px 0px;
 }
 .text1:hover{
     color: rgb(87, 87, 87);
+}
+
+@media only screen and (min-width:500px) and (max-width:700px){
 }
