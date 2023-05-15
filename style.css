@@ -36,7 +36,8 @@ body{
     height: 206px;
     top: -1px;
     right: 0px;
-    margin-right: 334px;
+    margin-right: 339px;
+
         
 }
 
@@ -250,6 +251,7 @@ body{
     background-clip: text;
     text-align: center;
     margin-top: 636px;
+    
 }
 
 .quad1{
@@ -671,7 +673,7 @@ color: #3D3535;
         margin: 0 auto;
         display: flex;
         justify-content: center;
-        margin-top: -32px;
+        margin-top: 0px;
     }
     
     .professor1{
@@ -719,6 +721,10 @@ color: #3D3535;
     main{
         width:20vw;
     }
+    .AreaKids{
+        margin-left:50%;  
+        max-width: 3000px;
+    }
     
     .tituli{
         font-family: 'Poppins';
@@ -729,6 +735,9 @@ color: #3D3535;
         text-align: center;
         color: #224B71;
         margin-top: 148px;
+        max-width: 300px;
+        margin-left:590px;
+        
     }
     .box1{
         position: absolute;
@@ -739,6 +748,7 @@ color: #3D3535;
         background: #BECFDE;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left:50px;
     }
     .circle1{
         position: absolute;
@@ -799,6 +809,7 @@ color: #3D3535;
         background: #DBE0E4;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left:50px;
     }
     .box2 h2{
         position: absolute;
@@ -862,6 +873,7 @@ color: #3D3535;
         background: #BECFDE;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left:50px;
     }
     .box3 h2{
         position: absolute;
@@ -908,6 +920,7 @@ color: #3D3535;
         background: #DBE0E4;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left:50px;
     }
     .box4 h2{
         position: absolute;
@@ -986,6 +999,7 @@ color: #3D3535;
         background: #BECFDE;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left: 50px;
     }
     .box5 h2{
         position: absolute;
@@ -1048,6 +1062,7 @@ color: #3D3535;
         background: #DBE0E4;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 45px;
+        margin-left:50px;
     }
     .box6 h2{
         position: absolute;
@@ -1103,14 +1118,12 @@ color: #3D3535;
         position: absolute;
         left: 760px;
         top: 2235px;
+        margin-left: 150px;
     }
     .imggrupo2{
       
         visibility:hidden ;
     }
-
-    
-
 
 
 .tudo h2{
@@ -1134,6 +1147,7 @@ color: #3D3535;
     border:none;
     box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
     background-color: white;
+    margin-left: 100px;
 }
 
 #face{
@@ -1175,6 +1189,7 @@ color: #3D3535;
     left: 450px;
     top: 3380px;
     border: 1px solid #BFBFBF;
+    margin-left:100px;
 }
 
 .linha2{
@@ -1183,7 +1198,7 @@ color: #3D3535;
     height: 0px;
     left: 748px;
     top: 3380px;
-    
+    margin-left:100px;
     border: 1px solid #BFBFBF;
 }
 .ou{
@@ -1198,6 +1213,7 @@ color: #3D3535;
     font-weight: 400;
     font-size: 14px;
     line-height: 135.5%;
+    margin-left: 100px;
 
     color: #2F2F2F; 
 }
@@ -1228,6 +1244,7 @@ color: #3D3535;
     height: 60px;
     background-color: #F5F5F5;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
 }
 
 .tudo #email{
@@ -1240,14 +1257,18 @@ color: #3D3535;
     height: 20px;
     margin-left: 120px;
     margin-top: -55px;
+    margin-left: 220px;
+  
 }
 
 .tudo #emailplace{
     width: 450px;
+    margin-left: 100px;
 }
 
 .tudo #senha{
     width: 450px;
+    margin-left: 100px;
 }
 
 .tudo #senhaimg{
@@ -1260,6 +1281,7 @@ color: #3D3535;
     height: 20px;
     margin-left: 120px;
     margin-top: 25px;
+    margin-left: 220px;
 }
 
 .tudo #login{
@@ -1497,12 +1519,12 @@ border-radius: 0px 100px 0px 0px;
             position: absolute;
             width: 369px;
             height: 75px;
-            left: 150px;
-            top: 860px;
+            top: 222px;
         }
 
         .quad1{
             top: 950px;
+            margin-left: 0;
             }
 
         .quad2{
@@ -1511,10 +1533,10 @@ border-radius: 0px 100px 0px 0px;
         }
         .quad3{
             top:1810px;
-            left:80px;
+            margin-left: 0;
         }
         .imc{
-            margin-top: 1970px;
+            margin-top: 2284px;
             margin-left: 30px;
             max-width: 400px;
             font-size:15px;
@@ -1532,8 +1554,8 @@ border-radius: 0px 100px 0px 0px;
         }
 
         .tabela img {
-            left: 100px;
-            top: 2520px;
+            margin-left:0;
+            margin-top: 326px;
         }
 
         .nossos{
@@ -1542,11 +1564,13 @@ border-radius: 0px 100px 0px 0px;
         }
     
         .nossos h2{
-            margin-top: 355px;
+            margin-top: 123px;
             text-align: center;
             font-size:25px;
         }
+        .AreaKids{
 
+        }
         .nossos img{
             margin-left: 50px;
             width: 210px;
@@ -1554,96 +1578,90 @@ border-radius: 0px 100px 0px 0px;
         
         .professores{
             display: flex;
-            margin-left: 100px;
+            margin-left: 0;
+            text-align: center;
         }
         
         .professor1{
-            margin-top: 50px;    
+            margin-top: 38px;
+            margin-left: -34px;    
         }
         
         .professor1 p{
             width: 400px;
-            text-align: justify;    
-            margin-left:-40px;
-        }
-        .professor1 h3{
-            margin-left:-40px;
+            text-align: center;
         }
         
         .professor2{
             margin-top: 400px;
-            margin-left:-355px;
+            margin-left: -439px;
             
         }
         
         .professor2 p{
             width: 400px;
-            text-align: justify;    
-            margin-left:-40px;
-        }
-
-        .professor2 h3{
-            margin-left:-40px;
+            text-align: center;
         }
         
         .professor3{
             margin-top: 750px;
-            margin-left:-355px;
+            margin-left: -439px;
         }
         
         .professor3 p{
             width: 400px;
-            text-align: justify;    
-            margin-left:-40px;
-        }
-        .professor3 h3{
-            margin-left:-50px;
+            text-align: center;
         }
         
         .professor4{
             margin-top: 1100px;
-            margin-left:-355px;
+            margin-left: -439px;
         }
         
         .professor4 p{
             width: 400px;
-            text-align: justify;    
-            margin-left:-40px;
-        }
-        .professor4 h3{
-            margin-left:-50px;
+            text-align: center;
         }
         .tituli{
-            left: 40px;
-            top: 4310px;
+            margin: 0;
+            text-align: center;
+            margin-left: 169px;
+            margin-top: 43px;
+            display: flex;
         }
         .box1{
             left: 30px;
-            top: 4450px;
+            top: 4690px;
+            margin-left:20px;
         }
        
         .box2{
             left: 300px;
-            top: 4450px;
+            top: 4690px;
+            margin-left:5px;
         }
 
         .box3{
-           left: 90px;
-           top: 4700px;
+            left: 90px;
+            top: 4953px;
+            margin-left:20px;
         }
      
         .box4{
             left: 267px;
-            top: 4700px;
+            top: 4953px;
+            margin-left:5px;
         }
    
         .box5{
             left: 60px;
-            top: 4950px;
+            top: 5204px;
+            margin-left:50px;
         }
         .box6{
             left: 325px;
-            top: 4950px;
+            top: 5204px;
+            margin-left:50px;
         }
 
         .imggrupo{
@@ -1652,36 +1670,29 @@ border-radius: 0px 100px 0px 0px;
         }
         .imggrupo2{
             visibility: visible;
-            margin-top:830px;
-            margin-left:20px;
-            width:50px;
+            margin-top: 769px;
+            margin-left: 0px;
+            width: 50px;
         }
 
         .tudo h2{
-            left: 30px;
-            top: 5500px;
-            max-width:1000px;
+            max-width: 1000px;
             font-size: 25px;
+            margin-top: 44px;
         }
         
-        .tudo img{
-            width: 410px;
-            height: 120px;
-            margin-left:-347px;
-            top: 5520px;
-        }
         
         .tudo button{
             width: 400px;
             left: 50px;
-            top:  5650px;
+            top: 5984px;
         }
         
         #face{
             width: 400px;
             height: 60px;
             left: 50px;
-            top:  5725px;
+            top: 6057px;
         }
         
         .tudo button img{
@@ -1704,7 +1715,7 @@ border-radius: 0px 100px 0px 0px;
         .linha1{
             width: 150px;
             left: 50px;
-            top:  5825px;
+            top: 6143px;
         }
         
         .linha2{
@@ -1712,12 +1723,12 @@ border-radius: 0px 100px 0px 0px;
             width: 150px;
             height: 0px;
             left: 300px;
-            top:  5825px;
+            top: 6143px;
         }
         
         .ou{
             left: 240px;
-            top: 5820px;
+            top: 6134px;
         }
         
 
@@ -1731,24 +1742,24 @@ border-radius: 0px 100px 0px 0px;
     
         .tudo #email{
             left: -55px;
-            top:  5930px;
+            top: 6247px;
             
         }
         
         .tudo #emailplace{
             left: 50px;
-            top:  5855px;
+            top: 6170px;
             width: 350px;
         }
         
         .tudo #senha{
             left: 50px;
-            top:  5930px;
+            top: 6249px;
             width: 350px;
         }
         
         .tudo #senhaimg{
-            top:  5930px;
+            top: 6246px;
             left: -55px;
         }
         
@@ -1759,7 +1770,10 @@ border-radius: 0px 100px 0px 0px;
             font-family: "Poppins";
             font-size: 18px;
         }
-
+        
+        .caixas{
+            
+        }
    
         .opcoes{
         
@@ -1770,7 +1784,7 @@ border-radius: 0px 100px 0px 0px;
             margin-left: 50px;
         }
         .retangulo{
-            margin-top:720px;;
+            margin-top:518px;
         }
         
         .textfooter{
@@ -1785,7 +1799,7 @@ border-radius: 0px 100px 0px 0px;
 
         .redessociais{
             position: absolute;
-            top: 450px;
+            top: 427px;
             margin-left: 25%;   
         }
         
@@ -1825,7 +1839,7 @@ border-radius: 0px 100px 0px 0px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     margin-top: -4px;
 }
 .text1{
